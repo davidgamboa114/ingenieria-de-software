@@ -1,0 +1,11 @@
+p {font: 24px arial; text-align: center;}
+li {font: 20px algerian;text-align: center;}
+h1{text-align: center;}
+h2{text-align: center;}
+img{position: relative;
+    left:40%;
+    top:25%;
+}
+*{color:rgb(132, 40, 194)}
+hr{border:solid 5px}
+.Textoimportante {font: arial 90px;}

@@ -1,0 +1,22 @@
+p {font: 24px arial; text-align: center;}
+li {font: 20px algerian;text-align: center;}
+h1{text-align: center;}
+h2{text-align: center;}
+img{position: relative;
+    left:40%;
+    top:25%;
+}
+*{color:rgb(141, 16, 110)}
+hr{border:solid 5px}
+.Textoimportante {font: arial 90px;}
+#datosPersonales {
+    background: url(../imgs/images2.jpg)  ;color: rgb(0, 0, 0) ;
+}
+#formacionacademica{
+    background: url(../imgs/images2.jpg)  ;color: rgb(0, 0, 0) ;margin: 5px 0 0 0; ;background-color: gold;
+}
+
+#experiencialaboral
+{
+    background: url(../imgs/images2.jpg)  ;color: rgb(0, 0, 0) ;
+}
