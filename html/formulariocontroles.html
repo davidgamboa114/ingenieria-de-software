@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles de Formularios HTML</title>
+</head>
+<body bgcolor="pink">
+    <h1>Prueba de controles de formularios HTML</h1>
+    <hr/>
+    <form action="../index.html" method="get">
+    <br>
+        <label for="txtName">Name(TextBox) :</label>
+        <input type="text" name="txtName" id="txtName" placeholder="enter your name"> 
+    </br>
+    <br>
+        <label for="txtLastname">Lastname(TextBox) :</label>
+        <input type="text" name="txtLastname" id="txtLastname" placeholder="enter your lastname"> 
+    </br>
+    <br>
+    <label for="chkCasado">Casado(checkbox) :</label>
+    <input type="checkbox" name="chkCasado" id="chkCasado" > 
+    </br>
+    <br>
+    <label for="datFechaNacimiento">Fecha de Nacimiento(date) :</label>
+    <input type="date" name="datFechaNacimiento" id="datFechaNacimiento" > 
+    </br>
+    <br>
+    <label for="dtlHorarioTicket">horario ticket(datetime-local) :</label>
+    <input type="datetime-local" name="dtlHorarioTicket" id="dtlHorarioTicket" > 
+    </br>
+    <br>
+    <label for="timHorarioTicket">horario ticket(time) :</label>
+    <input type="time" name="timHorarioTicket" id="timHorarioTicket" > 
+    </br>
+    <br>
+    <label for="txtpassword">password(textbox) :</label>
+    <input type="password" name="txtpassword" id="txtpassword" > 
+    </br>
+    <br>
+    <label for="txtEmail">Email(textbox) :</label>
+    <input type="email" name="txtEmail" id="txtEmail" required> 
+    </br>
+    <br>
+    <label for="cboLocalidad">Localidad:(select):</label>
+    <select name="cboLocalidad" id="cboLocalidad">
+        <option value="San Justo">San Justo</option>
+        <option value="Gobernador Crespo">Gobernador Crespo</option>            
+        <option value="Marcelino Escalada">Marcelino Escalada</option>
+        <option value="Videla">Videla</option>
+        <option value="Emilia">Emilia</option>
+    </select>
+    <input type="hidden" name="hidColor" value="black">
+    </br>
+    <br>
+    <label for="btnLimpiar">Resetear Valores(reset):</label>
+    <input type="reset" name="btnLimpiar" value="btnLimpiar">
+    </br>
+    <br>
+    <label for="numHijos">Cantidad de Hijos(number):</label>
+    <input type="number" name="numHijos" id="numHijos">
+    </br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html> 
