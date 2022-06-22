@@ -8,15 +8,18 @@
 </head>
 <body bgcolor="pink">
     <h1>Prueba de controles de formularios HTML</h1>
+    <h3 id="h3Ayuda"></h3>
     <hr/>
     <form action="../index.html" method="get">
     <br>
         <label for="txtName">Name(TextBox) :</label>
-        <input type="text" name="txtName" id="txtName" placeholder="enter your name"> 
+        <input type="text" name="txtName" id="txtName" 
+        placeholder="enter your name"onfocus="cargarAyuda();"> 
     </br>
     <br>
         <label for="txtLastname">Lastname(TextBox) :</label>
-        <input type="text" name="txtLastname" id="txtLastname" placeholder="enter your lastname"> 
+        <input type="text" name="txtLastname" id="txtLastname" 
+        placeholder="enter your lastname"onfocus="cargarAyuda2();"> 
     </br>
     <br>
     <label for="chkCasado">Casado(checkbox) :</label>
@@ -55,13 +58,28 @@
     </br>
     <br>
     <label for="btnLimpiar">Resetear Valores(reset):</label>
-    <input type="reset" name="btnLimpiar" value="btnLimpiar">
+    <input type="reset" name="btnLimpiar" value="Limpiar Controles">
     </br>
     <br>
     <label for="numHijos">Cantidad de Hijos(number):</label>
     <input type="number" name="numHijos" id="numHijos">
     </br>
-        <input type="submit" value="Enviar">
+    <br>
+        <label for="radSexoMasculino">Masculino</label>
+        <input type="radio" name="radSexoMasculino" id="radSexoMasculino" value="Masculino">
+
+        <label for="radSexoFemenino">Femenino</label>
+        <input type="radio" name="radSexoFemenino" id="radSexoFemenino" value="Femenino">
+
+        <label for="radTrolo">Soy Trolo</label>
+        <input type="radio" name="radTrolo" id="radTrolo" value="Trolo">
     </form>
+    </br>
+    <br>
+    <label for="filDocumento">Documento(file):</label>
+    <input type="file" name="filDocumento" id="filDocumento">
+    </br>
+    <input type="submit" value="Enviar">
+    <script src="../js/codigo.js"></script>
 </body>
 </html> 
